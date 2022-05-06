@@ -1,0 +1,6 @@
+version: 0.0
+os: windows
+hooks:
+  BeforeInstall:
+    - location: \before-install.bat
+      timeout: 120
